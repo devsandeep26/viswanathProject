@@ -816,8 +816,13 @@ nav {
 /*=====About us text ====*/
 .about_us_text {
     font-size: .9rem;
+    color: #616161;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+.about_us_img {
+    margin-top: 2rem;
 }
 
 /*========Machine Desc=====*/
