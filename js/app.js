@@ -63,18 +63,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             format: "multitoggle"
         });
     });
-    $('#t1').click(function (e) {
-        e.preventDefault();
-        $('#t2').removeClass('context-selector-selected');
-        $("#t1").addClass('context-selector-selected');
-        $('#Android').css('display', "block");
-        $('#IOS').css('display', "none");
-    })
-    $('#t2').click(function (e) {
-        e.preventDefault();
-        $('#t1').removeClass('context-selector-selected');
-        $("#t2").addClass('context-selector-selected');
-        $('#Android').css('display', "none");
-        $('#IOS').css('display', "block");
-    })
 })(jQuery);
