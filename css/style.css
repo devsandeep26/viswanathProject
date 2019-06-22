@@ -1021,6 +1021,11 @@ nav {
         height: 55px;
     }
 
+    .custom_width {
+        width: 100%;
+        margin: auto;
+    }
+
     .top-brands h2 {
         font-size: 1.3rem;
     }
@@ -1073,5 +1078,16 @@ nav {
         font-size: 1rem;
     }
 
+    .browse_title p {
+        margin-left: 20px;
+    }
+
+    .browse_title p {
+        margin-left: 20px;
+    }
+
+    .browse_list {
+        margin-left: 20px;
+    }
 
 }
